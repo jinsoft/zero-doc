@@ -53,7 +53,7 @@ $ mkdir mall && cd mall
     package user;
     
     //protoc-gen-go 版本大于1.4.0, proto文件需要加上go_package,否则无法生成
-    option go_package = "./user";
+    option go_package = "user";
   
     message IdRequest {
         string id = 1;
